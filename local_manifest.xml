@@ -1,0 +1,14 @@
+[In reply to Rahul Singh]
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   
+        <remote  name="s" fetch="https://github.com/StockAndroid" />
+   
+  <!-- Trees --> 
+                <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="s" revision="eleven" />
+                <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="s" revision="eleven" />
+                <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="s" revision="eleven" />
+                <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="s" revision="eleven" />
+                <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="s" revision="twelve-kcal" />
+   
+</manifest>
