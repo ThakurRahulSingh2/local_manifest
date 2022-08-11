@@ -8,6 +8,6 @@
                 <project path="device/xiaomi/sm6250-common" name="StockAndroid/device_xiaomi_sm6250-common" remote="github" revision="twelve" />
                 <project path="vendor/xiaomi/miatoll" name="StockAndroid/vendor_xiaomi_miatoll" remote="github" revision="twelve" />
                 <project path="vendor/xiaomi/sm6250-common" name="StockAndroid/vendor_xiaomi_sm6250-common" remote="github" revision="twelve" />
-                <project path="kernel_xiaomi_sm6250" name="StockAndroid/kernel_xiaomi_sm6250" remote="github" revision="twelve-kcal" />
+                <project path="kernel/xiaomi/sm6250" name="StockAndroid/kernel_xiaomi_sm6250" remote="github" revision="twelve-kcal" />
    
 </manifest>
