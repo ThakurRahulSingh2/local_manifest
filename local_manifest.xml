@@ -2,6 +2,7 @@
 <manifest>
    
         <remote  name="StockAndroid" fetch="https://github.com/StockAndroid" />
+        <remote name="clang" fetch="https://github.com/kdrag0n" />
    
   <!-- Trees --> 
                 <project path="device/xiaomi/miatoll" name="StockAndroid/device_xiaomi_miatoll" remote="github" revision="13.0" />
@@ -9,5 +10,10 @@
                 <project path="vendor/xiaomi/miatoll" name="StockAndroid/vendor_xiaomi_miatoll" remote="github" revision="13.0" />
                 <project path="vendor/xiaomi/sm6250-common" name="StockAndroid/vendor_xiaomi_sm6250-common" remote="github" revision="13.0" />
                 <project path="kernel_xiaomi_sm6250" name="StockAndroid/kernel_xiaomi_sm6250" remote="github" revision="twelve-kcal" />
+   
+   <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
    
 </manifest>
