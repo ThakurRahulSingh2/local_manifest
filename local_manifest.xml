@@ -3,7 +3,6 @@
    
         <remote  name="StockAndroid" fetch="https://github.com/StockAndroid" />
         <remote name="clang" fetch="https://github.com/kdrag0n" />
-        <remote name="arw" fetch="https://gitlab.com/arrowos-project" />
    
   <!-- Trees --> 
                 <project path="device/xiaomi/miatoll" name="StockAndroid/device_xiaomi_miatoll" remote="github" revision="13.0" />
