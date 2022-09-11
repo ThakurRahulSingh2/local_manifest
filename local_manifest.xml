@@ -3,7 +3,6 @@
    
         <remote  name="StockAndroid" fetch="https://github.com/StockAndroid" />
         <remote name="clang" fetch="https://github.com/kdrag0n" />
-        <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
         <remote name="arw" fetch="https://gitlab.com/arrowos-project" />
    
   <!-- Trees --> 
