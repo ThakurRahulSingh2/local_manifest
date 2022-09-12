@@ -4,10 +4,10 @@
         <remote  name="StockAndroid" fetch="https://github.com/ThakurRahulSingh" />
 
   <!-- Trees --> 
-                <project path="dt_xiaomi_miatoll" name="ThakurRahulSingh/dt_xiaomi_miatoll" remote="github" revision="arrow-13" />
-                <project path="dt_sm6250-common" name="ThakurRahulSingh/dt_sm6250-common" remote="github" revision="arrow-13" />
-                <project path="vt_miatoll" name="ThakurRahulSingh/vt_miatoll" remote="github" revision="arrow-13" />
-                <project path="vt_sm6250-common" name="ThakurRahulSingh/vt_sm6250-common" remote="github" revision="arrow-13" />
+                <project path="device_xiaomi_miatoll" name="ThakurRahulSingh/device_xiaomi_miatoll" remote="github" revision="arrow-13" />
+                <project path="device_xiaomi_sm6250-common" name="ThakurRahulSingh/device_xiaomi_sm6250-common" remote="github" revision="arrow-13" />
+                <project path="vendor_xiaomi_miatoll" name="ThakurRahulSingh/vendor_xiaomi_miatoll" remote="github" revision="arrow-13" />
+                <project path="vendor_xiaomi_sm6250-common" name="ThakurRahulSingh/vendor_xiaomi_sm6250-common" remote="github" revision="arrow-13" />
                 <project path="android_kernel_sm6250" name="ThakurRahulSingh/android_kernel_sm6250" remote="github" revision="kcal" />
    
 </manifest>
