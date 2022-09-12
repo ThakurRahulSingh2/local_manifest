@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    
-        <remote  name="StockAndroid" fetch="https://github.com/ThakurRahulSingh" />
+        <remote  name="ThakurRahulSingh" fetch="https://github.com/ThakurRahulSingh" />
 
   <!-- Trees --> 
                 <project path="device_xiaomi_miatoll" name="ThakurRahulSingh/device_xiaomi_miatoll" remote="github" revision="arrow-13" />
