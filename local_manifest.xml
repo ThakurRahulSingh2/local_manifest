@@ -5,7 +5,7 @@
 
   <!-- Trees --> 
                 <project path="device_xiaomi_miatoll" name="ThakurRahulSingh/device_xiaomi_miatoll" remote="github" revision="POSP-12" />
-                <project path="device_xiaomi_sm6250-common" name="ThakurRahulSingh/device_xiaomi_sm6250-common" remote="github" revision="POSP12" />
+                <project path="device_xiaomi_sm6250-common" name="ThakurRahulSingh/device_xiaomi_sm6250-common" remote="github" revision="POSP-12" />
                 <project path="vendor_xiaomi_miatoll" name="ThakurRahulSingh/vendor_xiaomi_miatoll" remote="github" revision="12" />
                 <project path="vendor_xiaomi_sm6250-common" name="ThakurRahulSingh/vendor_xiaomi_sm6250-common" remote="github" revision="12" />
                 <project path="android_kernel_sm6250" name="ThakurRahulSingh/android_kernel_sm6250" remote="github" revision="kcal" />
