@@ -2,6 +2,10 @@
 <manifest>
    
         <remote  name="ThakurRahulSingh" fetch="https://github.com/ThakurRahulSingh" />
+        <!-- (Clang) --> 
+        <remote name="clang" fetch="https://github.com/kdrag0n" />
+        <remote name="aro" fetch="https://github.com/ArrowOS-Devices" />
+        <remote name="arw" fetch="https://gitlab.com/arrowos-project" />
         
   <!-- Trees --> 
                 <project path="device/xiaomi/miatoll" name="ThakurRahulSingh/device_xiaomi_miatoll" remote="github" revision="pex-13" />
@@ -10,7 +14,10 @@
                 <project path="vendor/xiaomi/sm6250-common" name="ThakurRahulSingh/vendor_xiaomi_sm6250-common" remote="github" revision="12" />
                 <project path="android/kernel/sm6250" name="ThakurRahulSingh/android_kernel_sm6250" remote="github" revision="kcal" />
    
-
+  <!-- (Clang) -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="aro" revision="arrow-11.0" />
   
    
 </manifest>
