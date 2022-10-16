@@ -8,9 +8,9 @@
         <remote name="aro" fetch="https://github.com/ArrowOS-Devices" />
         <remote name="arw" fetch="https://gitlab.com/arrowos-project" />  -->
    
-  <!-- (Clang 2.0) -->
+  <!-- (Clang 2.0) 
         <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
+                fetch="https://gitlab.com/ImSurajxD" /> -->
         
   <!-- Trees --> 
                 <project path="device/xiaomi/miatoll" name="ThakurRahulSingh/device_xiaomi_miatoll" remote="github" revision="pex-13" />
@@ -24,7 +24,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="aro" revision="arrow-11.0" />  -->
    
-  <!-- (Clang 2.0) -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+  <!-- (Clang 2.0) 
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /> -->
    
 </manifest>
