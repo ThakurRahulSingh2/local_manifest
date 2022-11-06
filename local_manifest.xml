@@ -5,6 +5,9 @@
    
   <!-- (Clang) -->
         <remote name="clang" fetch="https://github.com/kdrag0n" />
+   
+  <!-- (Remove Projects) -->
+                 <remove-project name="platform/prebuilts/clang/host/linux-x86" />
         
   <!-- Trees --> 
                 <project path="device/xiaomi/miatoll" name="ThakurRahulSingh/device_xiaomi_miatoll" remote="github" revision="pex-13" />
@@ -12,7 +15,7 @@
                 <project path="vendor/xiaomi/miatoll" name="ThakurRahulSingh/vendor_xiaomi_miatoll" remote="github" revision="12" />
                 <project path="vendor/xiaomi/sm6250-common" name="ThakurRahulSingh/vendor_xiaomi_sm6250-common" remote="github" revision="12" />
                 <project path="android/kernel/sm6250" name="ThakurRahulSingh/android_kernel_sm6250" remote="github" revision="kcal" />
-   
+                <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" revision="refs/tags/android-13.0.0_r0.5" clone-depth="1" />
   <!-- (Clang) -->
                 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
    
