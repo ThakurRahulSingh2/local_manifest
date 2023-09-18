@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    
-        <remote  name="ThakurRahulSingh2" fetch="https://github.com/ThakurRahulSingh2" />
+        <remote  name="ThakurRahulSingh" fetch="https://github.com/ThakurRahulSingh" />
         <remote  name="LeafOS-Project" fetch="https://github.com/LeafOS-Project" />
    
   <!-- (Clang 2.0) -->
         <remote  name="clang" fetch="https://github.com/kdrag0n" />
         
   <!-- Trees --> 
-                <project path="device/xiaomi/miatoll" name="ThakurRahulSingh2/device_xiaomi_miatoll" remote="github" revision="pex-13" />
-                <project path="device/xiaomi/sm6250-common" name="ThakurRahulSingh2/device_xiaomi_sm6250-common" remote="github" revision="pex-13" />
-                <project path="vendor/xiaomi/miatoll" name="ThakurRahulSingh2/vendor_xiaomi_miatoll" remote="github" revision="12" />
-                <project path="vendor/xiaomi/sm6250-common" name="ThakurRahulSingh2/vendor_xiaomi_sm6250-common" remote="github" revision="12" />
-                <project path="kernel/xiaomi/miatoll" name="ThakurRahulSingh2/namaste_xiaomi_miatoll" remote="github" revision="lineage-20.0" />
+                <project path="device/xiaomi/miatoll" name="ThakurRahulSingh/device_xiaomi_miatoll" remote="github" revision="pex-13" />
+                <project path="device/xiaomi/sm6250-common" name="ThakurRahulSingh/device_xiaomi_sm6250-common" remote="github" revision="pex-13" />
+                <project path="vendor/xiaomi/miatoll" name="ThakurRahulSingh/vendor_xiaomi_miatoll" remote="github" revision="12" />
+                <project path="vendor/xiaomi/sm6250-common" name="ThakurRahulSingh/vendor_xiaomi_sm6250-common" remote="github" revision="12" />
+                <project path="kernel/xiaomi/miatoll" name="ThakurRahulSingh/namaste_xiaomi_miatoll" remote="github" revision="lineage-20.0" />
                 <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="prebuilts_clang_host_linux-x86_clang-r498229" remote="Joker-V2" revision="master" />
 
                 <project path="android/vendor/lineage/compat" name="LeafOS-Project/android_vendor_lineage_compat" remote="github" revision="leaf-2.0" />
